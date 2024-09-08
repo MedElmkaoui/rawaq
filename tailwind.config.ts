@@ -12,6 +12,7 @@ const config: Config = {
         "orange": "#EF633E",
         "blue": "#5DC4B8",
         "gray": "#333333",
+        "naturel": "#F3F3F3",
       },
       backgroundImage: theme => ({
         'gradient-light': 'linear-gradient(to right, #ECF8F8, #FCEEE9)',

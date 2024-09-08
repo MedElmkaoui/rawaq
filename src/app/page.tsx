@@ -1,8 +1,11 @@
+import Buffieh from "@/components/Buffieh";
+import Explore from "@/components/Explore";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Popular from "@/components/Popular";
 import Special from "@/components/Special";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
         <Features />
         <Popular />
         <Special />
+        <Explore />
+        <Buffieh />
+        <Testimonials />
     </div>
   );
 }
