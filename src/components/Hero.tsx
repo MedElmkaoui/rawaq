@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='my-12 z-auto grid lg:grid-cols-2 items-center gap-12'>
         <div className='z-10 space-y-12'>
             <h3 className='text-blue font-semibold text-2xl'>رواقَ كافيةِ</h3>
-            <h1 className='text-5xl xl:text-8xl font-bold xl:leading-[150px]'>المطعم الشعبي الأول في فلسطين</h1>
+            <h1 className='text-5xl xl:text-8xl font-bold xl:leading-[150px]'>المطعم الشعبي الأول في المغرب</h1>
             <p className='text-gray text-xl w-[80%]'>
             هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.
             </p>

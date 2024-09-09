@@ -8,7 +8,7 @@ const Recipes = () => {
           <div className="z-10 flex flex-col items-center space-y-5">
             <h3 className="text-xl text-center text-blue font-black">أقرأ أيضاً</h3>
             <h1 className="text-7xl text-center font-semibold">وصفات طبخ </h1>
-            <p className="text-xl text-center text-gray w-[30%]">
+            <p className="text-xl text-center text-gray lg:w-[30%]">
             هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص .
             </p>
           </div>

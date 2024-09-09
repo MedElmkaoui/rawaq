@@ -2,6 +2,7 @@ import Buffieh from "@/components/Buffieh";
 import CTA from "@/components/CTA";
 import Explore from "@/components/Explore";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import KnowMore from "@/components/KnowMore";
 import NavBar from "@/components/NavBar";
@@ -24,6 +25,7 @@ export default function Home() {
         <KnowMore />
         <Recipes />
         <CTA />
+        <Footer />
     </div>
   );
 }

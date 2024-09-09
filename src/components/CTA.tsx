@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const CTA = () => {
   return (
-    <div className="my-24 relative w-[60%] p-12 rounded-3xl mx-auto bg-white shadow-xl h-[180px] flex items-center justify-between">
-        <div>
+    <div className="my-24 relative lg:w-[60%] p-12 rounded-3xl mx-auto bg-white shadow-xl flex gap-12 flex-col lg:flex-row items-center justify-between">
+        <div className="space-y-5">
             <h1 className="text-3xl font-bold">
             اطلب الان
             </h1>
@@ -16,7 +16,7 @@ const CTA = () => {
         اتصل بنا
         </button>
         <Image
-            src={'/way-1.png'}
+            src={'/way-2.png'}
             alt=''
             width={200}
             height={200}
