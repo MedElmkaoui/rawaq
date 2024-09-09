@@ -12,7 +12,7 @@ const Special = () => {
             هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.       
             </p>
           </div>
-          <div className="flex justify-center items-center gap-12 py-12">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-12 py-12">
             <div className="z-10 relative bg-white w-[250px] rounded-3xl p-5 flex flex-col justify-center shadow-xl space-y-5">
               <div className="relative w-[250px] h-[200px]">
                 <Image

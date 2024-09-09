@@ -2,6 +2,7 @@ import Buffieh from "@/components/Buffieh";
 import Explore from "@/components/Explore";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import KnowMore from "@/components/KnowMore";
 import NavBar from "@/components/NavBar";
 import Popular from "@/components/Popular";
 import Special from "@/components/Special";
@@ -18,6 +19,7 @@ export default function Home() {
         <Explore />
         <Buffieh />
         <Testimonials />
+        <KnowMore />
     </div>
   );
 }

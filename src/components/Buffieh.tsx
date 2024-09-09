@@ -3,7 +3,7 @@ import React from 'react'
 
 const Buffieh = () => {
   return (
-    <div className='relative my-24 flex justify-center items-center gap-3'>
+    <div className='relative my-24 flex flex-col lg:flex-row justify-center items-center gap-3'>
       <div className='mt-24 col-span-1 space-y-8'>
          <div className='space-y-3.5'>
            <h3 className='text-blue font-semibold'>صالة عرض</h3>
@@ -13,7 +13,7 @@ const Buffieh = () => {
          <p className='w-[60%]'>
          هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص .
          </p>
-         <div className='w-fit gap-3 flex justify-between items-center'>
+         <div className='w-fit gap-3 flex  justify-between items-center'>
             <button className='border border-blue rounded-full p-4'>
                 <Image
                     src={'/icons/arrow.png'}

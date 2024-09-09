@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Testimonials = () => {
   return (
-    <div className="my-24 relative">
+    <div className="mt-52 mb-12 relative">
         <div className="z-auto my-12">
           <div className="z-10 flex flex-col items-center space-y-5">
             <h3 className="text-xl text-center text-blue font-black">قالوا عنا</h3>
@@ -12,7 +12,7 @@ const Testimonials = () => {
             هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.
             </p>
           </div>
-          <div className="mt-8 flex justify-center items-center gap-12 py-12">
+          <div className="mt-8 flex flex-col lg:flex-row justify-center items-center gap-12 py-12">
             <div className="z-10 relative bg-white w-[250px] rounded-3xl p-5 flex flex-col justify-center shadow-xl space-y-5">
                 <div className="relative">
                   <Image

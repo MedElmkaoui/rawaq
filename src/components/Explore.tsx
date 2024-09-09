@@ -5,7 +5,7 @@ const Explore = () => {
   return (
     <div className="my-24 space-y-24">
       <h1 className="text-center text-3xl text-blue font-semibold">أستكشف حسب الفئة</h1>
-      <div className="flex gap-12 items-center justify-center">
+      <div className="flex flex-col lg:flex-row  gap-12 items-center justify-center">
         <div className="w-[150px] relative flex flex-col items-center rounded-[25px] bg-gradient-light-orange">
             <div className="-mt-[30%] bg-white h-24 w-24 rounded-full shadow-lg absolute flex items-center justify-center ">
                 <Image

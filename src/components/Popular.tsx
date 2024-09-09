@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Popular = () => {
   return (
-    <div className="relative my-36 grid grid-cols-2 items-center justify-between gap-12">
+    <div className="relative my-36 grid lg:grid-cols-2 items-center justify-between gap-12">
       <div className="z-10 grid grid-cols-2 items-center gap-5">
         <div className="flex flex-col items-end">
             <div className="h-[90%] mb-5  rounded-3xl rounded-tr-[85px] overflow-hidden shadow-lg">
@@ -49,7 +49,7 @@ const Popular = () => {
       </div>
       <div className='z-10 space-y-5'>
             <h3 className='text-blue font-semibold text-2xl'> معلومات عنا</h3>
-            <h1 className='text-5xl xl:text-6xl font-bold leading-[220px] w-[60%]'>المطعم الشعبي الأول</h1>
+            <h1 className='text-5xl xl:text-6xl font-bold lg:leading-[220px] w-[60%]'>المطعم الشعبي الأول</h1>
             <p className=' text-xl w-[80%]'>
             هذا النص هو مثال لنص أساسي.           
              </p>
