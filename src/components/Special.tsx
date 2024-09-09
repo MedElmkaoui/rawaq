@@ -8,7 +8,7 @@ const Special = () => {
           <div className="z-10 flex flex-col items-center space-y-5">
             <h3 className="text-xl text-center text-blue font-black">أكلاتنا الزاكية</h3>
             <h1 className="text-7xl text-center font-semibold">الطعام المفضل</h1>
-            <p className="text-xl text-center text-gray w-[50%]">
+            <p className="text-xl text-center text-gray lg:w-[50%]">
             هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.       
             </p>
           </div>

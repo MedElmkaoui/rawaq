@@ -49,8 +49,8 @@ const Popular = () => {
       </div>
       <div className='z-10 space-y-5'>
             <h3 className='text-blue font-semibold text-2xl'> معلومات عنا</h3>
-            <h1 className='text-5xl xl:text-6xl font-bold lg:leading-[220px] w-[60%]'>المطعم الشعبي الأول</h1>
-            <p className=' text-xl w-[80%]'>
+            <h1 className='text-5xl xl:text-6xl font-bold lg:leading-[220px] lg:w-[60%]'>المطعم الشعبي الأول</h1>
+            <p className=' text-xl lg:w-[80%]'>
             هذا النص هو مثال لنص أساسي.           
              </p>
             <p className="text-gray text-lg w-[80%]">
