@@ -13,7 +13,7 @@ import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <div className="relative w-[85%] min-h-screen mx-auto">
+    <div className="relative w-[85%] min-h-screen mx-auto overflow-clip">
         <NavBar />
         <Hero />
         <Features />
